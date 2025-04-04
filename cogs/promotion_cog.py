@@ -27,7 +27,7 @@ class PromotionCog(commands.Cog):
                 cadet_chat = self.bot.get_channel(cadet_chat_id)
                 if cadet_chat:
                     await cadet_chat.send(
-                        f"Welcome {member.mention} to the Officer Academy for GPT Fleet: Class #09! ✨ Your road to clan leadership begins here."
+                        f"Welcome {member.mention} to the Officer Academy for GPT Fleet: Class #10! ✨ Your road to clan leadership begins here."
                     )
                     logging.info(f"Sent welcome message for {member.display_name} in the cadet chat.")
 
